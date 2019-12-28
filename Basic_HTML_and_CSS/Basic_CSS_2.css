@@ -1,0 +1,19 @@
+h1 {
+	color:black;
+	text-shadow: 2px 2px #ff0000;
+}
+h3 {
+	background-color:black;
+	color:white;
+	text-align:left;
+}
+p {
+	background-color:black;
+	color:white;
+	font-size:small;
+			}
+	ul {
+	background-color:black;
+	color:white;
+	list-style-type:square;
+		}
