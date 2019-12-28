@@ -5,7 +5,7 @@ html {
     font-size: 62.5%;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     -webkit-text-size-adjust: 100%;
-    -ns-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
 }
 
 body{
@@ -13,7 +13,7 @@ body{
     margin:0;
     font-family: "Helvetica Hue", Verdana, Tahoma, sans-serif;
     line-height: 1.4;
-    color #333;
+    color: #333;
     background-color: #fff;
 }
 
@@ -34,7 +34,7 @@ h1 {
     color: #E91C1C;
     text-shadow:2px 2px 3px rgba(0,0,0,0.5);
 }
-h1::after { /*this is the underline*/
+h1:after { /*this is the underline*/
     display: block;
     content: "";
     height: 2px;
@@ -66,7 +66,7 @@ p {
 }
 
 .text-center {
-    text-align:center;
+    text-align: center;
 }
 
 .heading-padding {
@@ -78,7 +78,7 @@ section{
 }
 
 .navbar {
-    height:105px;
+    height: 105px;
     max-height: 340px;
     display: block;
 }
@@ -133,7 +133,7 @@ section{
 /*HOME SECTION STYLES*/
 
 #home {
-    background: url(..images/thumbs/back.jpg) no-repeat 50% 50%;
+    background: url(../images/thumbs/back.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -209,7 +209,7 @@ section{
     margin: 0 auto;
     color: #13161B;
     font-weight: 500;
-    font-align: 1.3ea;
+    font-size: 1.3em;
     letter-spacing: 0pt;
     word-spacing: 0pt;
 }
@@ -220,9 +220,9 @@ section{
     margin: 0 auto;
     color: #13161B;
     font-weight: 900;
-    font size: 1.5ea;
+    font-size: 1.5em;
     font-variant: small-caps;
-    letter spacing: .4pt;
+    letter-spacing: .4pt;
     word-spacing: .3pt;
 }
 
@@ -284,12 +284,12 @@ section{
     font-weight: 600;
     position: relative;
     display: inline;
-    float:right;
+    float: right;
 }
 
-.terms: hover {
+.terms:hover {
     color: orange;
-    text decoration: underline;
+    text-decoration: underline;
 }
 
 .submit input[type="submit"] {
@@ -300,7 +300,7 @@ section{
     outline: none;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    margin 0px 3%;
+    margin: 0px 3%;
     padding: 7px 0px;
     width: 25%;
     font-size:18px;
