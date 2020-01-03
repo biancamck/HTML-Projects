@@ -1,0 +1,185 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.navbar {
+    background-color: #B3AFAE;
+    overflow: hidden;
+   }
+
+/*Style Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #761180;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.navbar a:hover {
+    background-color: white;
+    color: #761180;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+/*pstyles*/
+
+h3:hover {
+    color:#761180;
+    border: 1px dashed black;
+
+}
+
+  /* image and text overlay style*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  img {
+    -webkit-filter:sepia(100%);
+    filter:sepia(100%);
+    border-radius:15px;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+     }
+
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-size: 18px;
+    
+  }
+
+
+  /*table styles*/
+  th, td {
+    border: 2px solid #761180;
+    padding: 10px;
+  }
+
+  th {
+      background: #B3AFAE;
+  }
+
+
+/*column styles*/
+
+  .row {
+      margin: 5% 5% 5% 5%;
+      padding: 5% 5% 5% 5%;
+      display: flex;
+      height: 300px;
+      width: 80%;
+      background-color: lightgray;
+  }
+
+ 
+  .column {
+    float: left;
+    width: 50%;
+    color:#761180
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#gallery,
+#venues {
+ margin:5%;
+}
+
+  /* fade in overlay*/
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #761180;
+    border-radius: 15px;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color:#B3AFAE;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .container2 {
+    position: relative;
+    width: 50%;
+  
+  }
+
+  .overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #761180;
+  }
+    
+  .container2:hover .overlay2 {
+    opacity: 1;
+  }
+
+  footer {
+    display: block;
+    text-align: center;
+    font-weight: 900;
+  }
+
+  
