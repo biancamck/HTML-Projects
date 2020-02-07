@@ -38,13 +38,11 @@
 .photo {
     position: relative;
     line-height: 0;
-    margin-bottom: 2cm;
+    margin-bottom: 5px;
     overflow: hidden;
     border-radius: 8px;
     padding: 1px;
-    border: 1px solid #021a40;
-    background-color: #ff0;
-    box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.7);
+   
 }
 
 .photo-container {
